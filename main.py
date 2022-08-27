@@ -6,11 +6,11 @@ import pyfiglet
 
 import os
 
-os.system("pip install pyfiglet")
+os.system("py -m pip install pyfiglet")
 
 os.system('clear')
 
-os.system("pyfiglet --font=5lineoblique --color=GREEN Vexxo")
+os.system("py -m pyfiglet --font=5lineoblique --color=GREEN Vexxo")
 
 msg = input("Webhook Message -> ")
 
